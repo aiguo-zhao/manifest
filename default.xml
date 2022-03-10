@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <default sync-j="2"/>
+	<remote fetch="git://github.com/YoeDistro" name="YoeDistro"/>
+    <remote fetch="https://github.com/aiguo-zhao" name="aiguo-zhao"/>
+ 	<project remote="YoeDistro" revision="hardknott" name="poky" path="poky"/>
+	<project remote="aiguo-zhao" revision="master" name="meta-mylayer" path="poky/meta-mylayer"/>
+
+</manifest>
